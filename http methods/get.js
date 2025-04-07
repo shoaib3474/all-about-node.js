@@ -17,7 +17,7 @@ const myServer = http.createServer((req, res) => {
 
 
     //just add http methods
-    const log = `${date.toString().split('T')[0]} : ${req.method} ${req.url} :New Requested Received From User ! \n `
+    const log = `${req.method} ${req.url} :New Requested Received From User ! \n `
 
 
 
