@@ -1,0 +1,32 @@
+                 Version
+
+
+       ^4.12.1          
+
+1st part -> 5     Major / Bracking reasle 
+
+
+
+
+2nd part -> 1   Recommended Bug Fix (Security Fixes) 
+add some new feature or update the exiting feature . the impact the perfomus
+
+
+
+
+3rd part -> 0   (last part)  - Minor Fixes (optional)
+
+
+5th part -> ^  (set range)
+
+it lock first digit and update Recommended and minor updates
+^lock.change.change  automatically
+^4.12.1
+^4.12.3
+^4.12.4
+^4.15.1
+^4.16.1
+
+~ it use for only minor updates 
+~lock.lock.change   automatically
+~4.16.1
