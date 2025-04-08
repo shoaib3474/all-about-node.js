@@ -19,22 +19,12 @@ const myServer = http.createServer((req, res) => {
     //just add http methods
     const log = `${req.method} ${req.url} :New Requested Received From User ! \n `
 
-
-
-
-    const myUrl = url.parse(req.url)
-
-    console.log(myUrl)
-
-
-
     //create log file to track user acctions 
     fs.appendFile(
         'log.txt', log, (erro, data) => {
 
         }
     )
-
 
 
     // response show to the user 
