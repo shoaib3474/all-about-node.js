@@ -1,0 +1,18 @@
+  REST API
+
+   get all users
+
+  GET /api/users     -list of all user  Done
+
+
+  get indivisul user using id 
+
+  /api/users/2
+
+  GET /api/users/:id
+
+  POST  - create new user 
+
+  PATCH - /api/users/:id    Edit users with id 
+
+  DELETE - /api/users/:id   delte user with id 

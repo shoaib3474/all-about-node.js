@@ -1,0 +1,83 @@
+
+📄 REST API & HTTP Methods - Basics
+
+---
+
+🔗 What is a REST API?
+
+REST stands for Representational State Transfer.
+A REST API is a web service that allows clients (like browsers, mobile apps) to communicate with a server using standard HTTP methods.
+
+It follows simple principles:
+- Stateless (no session stored on server)
+- Uniform interface (uses standard HTTP methods)
+- Resource-based (everything is a resource: users, posts, products, etc.)
+
+---
+
+🔧 Common HTTP Methods in REST API
+
+1. GET
+- 🔍 Used to retrieve data from the server.
+- Does not change anything on the server.
+- Example:
+  GET /users
+  GET /products/5
+
+---
+
+2. POST
+- ➕ Used to create a new resource on the server.
+- Sends data in the request body (usually in JSON format).
+- Example:
+  POST /users
+  Body: { "name": "Ali", "age": 25 }
+
+---
+
+3. PUT
+- 📝 Used to update a resource completely.
+- Replaces the entire existing resource.
+- Example:
+  PUT /users/1
+  Body: { "name": "Ali Updated", "age": 26 }
+
+---
+
+4. PATCH
+- ✏️ Used to partially update a resource.
+- Only the provided fields are updated.
+- Example:
+  PATCH /users/1
+  Body: { "age": 30 }
+
+---
+
+5. DELETE
+- ❌ Used to remove a resource from the server.
+- Example:
+  DELETE /users/1
+
+---
+
+✅ REST API Response Format
+
+- Usually returns JSON
+- Example response from GET /users/1:
+  {
+    "id": 1,
+    "name": "Ali",
+    "age": 25
+  }
+
+---
+
+🧠 Summary
+
+| Method  | Action         | Description                        |
+|---------|----------------|------------------------------------|
+| GET     | Read           | Fetch a resource                   |
+| POST    | Create         | Add a new resource                 |
+| PUT     | Update         | Replace an existing resource       |
+| PATCH   | Partial Update | Update part of a resource          |
+| DELETE  | Remove         | Delete a resource                  |
