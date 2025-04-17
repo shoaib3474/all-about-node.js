@@ -9,6 +9,7 @@ const url = require("url")
 const myServer = http.createServer((req, res) => {
     if (req.url === '/favicon.ico') return res.end()
     const date = new Date(Date.now());
+  
     const log = `${date.toString().split('T')[0]} :  ${req.url} :New Requested Received From User ! \n `
 
 
@@ -26,7 +27,8 @@ const myServer = http.createServer((req, res) => {
 
         }
     )
-    console.log('New Request Received')
+
+
 
 
     // response show to the user 
@@ -45,6 +47,7 @@ const myServer = http.createServer((req, res) => {
     }
 
 })
+
 
 // listen on this port
 

@@ -2,7 +2,7 @@
 const fs = require('fs')
 // to create new file 
 
-//                 file path where create new file            data 
+// file path where create new file            data 
 fs.writeFileSync('./test_file.txt', 'your file is created',
 )
 
