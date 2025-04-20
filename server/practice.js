@@ -21,13 +21,17 @@ const webServer = http.createServer((req, res) => {
 
         fs.readFile(filePath, (err, data) => {
             if (err) {
-                res.end(`Bhi masla ho gya hai! 😔😔😔😭 ${err} `)
+                res.end(`Bhi masla ho gya hai!  `)
             } else {
                 res.end(data)
             }
         })
     } else {
-        res.end(`Bhi masla ho gya hai! 😔😔😔😭  `)
+        res.end(`<!DOCTYPE html>
+            <html>
+            <center>
+            Bhi masla ho gya hai! 
+            </center></html>`)
     }
 
 })
