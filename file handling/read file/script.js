@@ -7,7 +7,7 @@ console.log(result)
 
 //aysnc 
 
-fs.readFile('./test_file.txt', 'utf8', (err, result) => {
+fs.readFile('./test.txt', 'utf8', (err, result) => {
     if (err) {
         console.log(`Error  ${err}`)
     }

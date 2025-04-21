@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
 
 
 app.get('/about', (req, res) => {
-    res.json({ message: `Welcome to the Home Page ${req.query.name}` })
+    res.json({ message: `Welcome to the Home Page ${req.query.name} my age ${req.query.age}` })
 })
 
 //listen sever 

@@ -1,6 +1,7 @@
   REST API
 
    get all users
+   GET /users   render HTML ducoment
 
   GET /api/users     -list of all user  Done
 
