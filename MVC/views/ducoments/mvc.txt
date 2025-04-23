@@ -1,0 +1,7 @@
+MVC (Model-View-Controller) is a design pattern used to separate the concerns of an application into three main parts:
+
+1. Model: Manages the data and business logic.
+2. View: Handles the display and presentation of data (UI).
+3. Controller: Connects the Model and View, processes user input, and updates both accordingly.
+
+This separation helps in organizing code better and makes it easier to maintain and scale.
